@@ -10,7 +10,9 @@
     "test": "jest",
     "flow": "flow",
     "lint": "eslint **/*.js",
-    "format": "eslint --fix **/*.js"
+    "format": "eslint --fix **/*.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "keywords": [
     "react-native-component",
@@ -68,6 +70,9 @@
     ]
   },
   "dependencies": {
-    "prop-types": "^15.5.8"
-  }
+    "prop-types": "^15.5.8",
+    "expo": "27.0.2",
+    "snyk": "^1.83.0"
+  },
+  "snyk": true
 }
