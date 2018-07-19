@@ -8,7 +8,7 @@
   "dependencies": {
     "@expo/vector-icons": "^4.0.0",
     "escape-string-regexp": "^1.0.5",
-    "expo": "~16.0.0",
+    "expo": "~27.0.2",
     "prop-types": "^15.5.8",
     "react": "16.0.0-alpha.6",
     "react-native": "git+https://github.com/expo/react-native.git#sdk-16.0.0"
